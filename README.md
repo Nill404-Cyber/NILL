@@ -1,7 +1,7 @@
 ```python
 rm -rf NILL
 
-git clone https://github.com/Nill404-Cyber/NILL.git
+git clone --depth=1 https://github.com/Nill404-Cyber/NILL.git
 
 cd NILL
 
