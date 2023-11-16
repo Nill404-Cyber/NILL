@@ -1,5 +1,6 @@
-import os
-os.system("clear")
-os.system("git pull")
-os.system("clear")
-import NILL
+import os, sys
+os.system('git pull')
+try:
+    __import__("NILL").nowStart()._xE__xD()
+except Exception as e:
+    exit(str(e))
